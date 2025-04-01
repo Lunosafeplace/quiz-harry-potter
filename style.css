@@ -1,0 +1,61 @@
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f0f8ff;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-image: url('https://images.unsplash.com/photo-1571936804022-90d128047136?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhhcnJ5JTIwcG90dGVyfGVufDB8fDB8fHww'); /* Remplacez par votre image de fond de Noël */
+background-size: 100% 100%;
+}
+
+.container {
+background-color: rgba(255, 255, 255, 0.8);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+width: 600px;
+text-align: center;
+}
+
+h1 {
+color: #8b0000; /* Rouge Noël */
+margin-bottom: 20px;
+}
+
+#quiz {
+margin-bottom: 20px;
+}
+
+#options button {
+display: block;
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: none;
+background-color: #e6e6fa;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#options button:hover {
+background-color: #d8bfd8;
+}
+
+#next {
+background-color: #8b0000;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#next:hover {
+background-color: #a52a2a;
+}
+
+#result {
+font-weight: bold;
+}
